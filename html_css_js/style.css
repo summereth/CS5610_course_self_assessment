@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+/* Row 1: Different Border Values */
+.border-demo-1 {
+  border: 0px solid #333;
+}
+
+.border-demo-2 {
+  border: 5px solid #333;
+}
+
+.border-demo-3 {
+  border: 10px solid #333;
+}
+
+/* Row 2: Different Margin Values */
+.margin-demo-1 {
+  margin: 0px;
+  border: 1px solid #333;
+  background-color: #e0e0e0;
+}
+
+.margin-demo-2 {
+  margin: 5px;
+  border: 1px solid #333;
+  background-color: #e0e0e0;
+}
+
+.margin-demo-3 {
+  margin: 10px;
+  border: 1px solid #333;
+  background-color: #e0e0e0;
+}
+
+/* Row 3: Different Padding Values */
+.padding-demo-1 {
+  padding: 0px;
+  border: 1px solid #333;
+  background-color: #d0d0d0;
+}
+
+.padding-demo-2 {
+  padding: 5px;
+  border: 1px solid #333;
+  background-color: #d0d0d0;
+}
+
+.padding-demo-3 {
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #d0d0d0;
+}
+
+.container {
+  border: 1px dashed #999;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.container > li {
+  margin-left: 20px;
+}
+
+.positioning_example {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Static Positioning Example */
+.static-box {
+  position: static;
+  background-color: #ffcdd2;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Relative Positioning Example */
+.relative-container {
+  position: relative;
+  height: 150px;
+  background-color: #e1bee7;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.relative-child {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  background-color: #ce93d8;
+  width: 200px;
+}
+
+/* Absolute Positioning Example */
+.absolute-container {
+  position: relative;
+  height: 200px;
+  background-color: #bbdefb;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.absolute-child {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  background-color: #90caf9;
+  padding: 15px;
+  width: 200px;
+}
+
+/* Fixed Positioning Example */
+.fixed-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #c8e6c9;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Title tag - crucial for SEO, should be 50-60 characters -->
+    <title>HTML Self Assessment</title>
+
+    <!-- Keywords - less important for modern SEO but still used by some search engines -->
+    <meta
+      name="keywords"
+      content="html, css, JavaScript, web development, front-end"
+    />
+
+    <!-- Favicon - while not directly SEO-related, it adds professionalism -->
+    <link rel="icon" type="image/x-icon" href="#" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>About</li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h1>HTML, CSS, JS Self Assessment</h1>
+      </section>
+      <section>
+        <h2>HTML</h2>
+        <div class="grid">
+          <div>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 1</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 2</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 3</span>
+          </div>
+
+          <!-- Spacer row -->
+          <div>
+            <span>&nbsp;</span>
+          </div>
+
+          <!-- Second Row -->
+          <div>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 4</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 5</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 6</span>
+          </div>
+
+          <!-- Spacer row -->
+          <div>
+            <span>&nbsp;</span>
+          </div>
+
+          <!-- Third Row -->
+          <div>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 7</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 8</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Cell 9</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>CSS</h2>
+        <div class="gallery">
+          <!-- Border Demonstrations -->
+          <h3>Box Model</h3>
+          <div class="container">
+            <h4>Border Values</h4>
+            <div class="row">
+              <div>
+                <div class="box border-demo-1">0px border</div>
+                <div class="label">Border: 0px</div>
+              </div>
+              <div>
+                <div class="box border-demo-2">5px border</div>
+                <div class="label">Border: 5px</div>
+              </div>
+              <div>
+                <div class="box border-demo-3">10px border</div>
+                <div class="label">Border: 10px</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Margin Demonstrations -->
+          <div class="container">
+            <h4>Margin Values</h4>
+            <div class="row">
+              <div>
+                <div class="box margin-demo-1">0px margin</div>
+                <div class="label">Margin: 0px</div>
+              </div>
+              <div>
+                <div class="box margin-demo-2">5px margin</div>
+                <div class="label">Margin: 5px</div>
+              </div>
+              <div>
+                <div class="box margin-demo-3">10px margin</div>
+                <div class="label">Margin: 10px</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Padding Demonstrations -->
+          <div class="container">
+            <h4>Padding Values</h4>
+            <div class="row">
+              <div>
+                <div class="box padding-demo-1">0px padding</div>
+                <div class="label">Padding: 0px</div>
+              </div>
+              <div>
+                <div class="box padding-demo-2">5px padding</div>
+                <div class="label">Padding: 5px</div>
+              </div>
+              <div>
+                <div class="box padding-demo-3">10px padding</div>
+                <div class="label">Padding: 10px</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Text Example</h3>
+          <ul class="container">
+            <li style="font-size: 12px">
+              This is a sample text demonstrating font size: 12px (Absolute
+              pixel size)
+            </li>
+            <li style="font-size: 2em">
+              This is a sample text demonstrating font size: 2em (Relative to
+              parent element's font size)
+            </li>
+            <li style="font-size: 24pt">
+              This is a sample text demonstrating font size: 24pt (Absolute
+              point size)
+            </li>
+            <li style="font-size: 150%">
+              This is a sample text demonstrating font size: 150% (Relative to
+              parent element's font size)
+            </li>
+            <li style="font-size: x-large">
+              This is a sample text demonstrating font size: x-large (Absolute
+              size keyword)
+            </li>
+            <li style="font-size: 3rem">
+              This is a sample text demonstrating font size: 3rem (Relative to
+              root element's font size)
+            </li>
+          </ul>
+        </div>
+
+        <div class="positioning_example">
+          <h3>Positioning Example</h3>
+          <!-- Static Positioning -->
+          <div class="static-box">
+            <h4>Static Positioning</h4>
+            <p>This is a statically positioned element (default behavior).</p>
+            <div class="explanation">
+              <strong>When to use:</strong> Default positioning for all
+              elements. Best for normal document flow where elements follow each
+              other naturally.
+            </div>
+          </div>
+
+          <!-- Relative Positioning -->
+          <div class="relative-container">
+            <div class="relative-child">
+              <h4>Relative Positioning</h4>
+              <p>This element is positioned relative to its normal position.</p>
+            </div>
+            <div class="explanation">
+              <strong>When to use:</strong> When you need to make small
+              adjustments to an element's position without affecting other
+              elements, or when creating a positioning context for absolute
+              children.
+            </div>
+          </div>
+
+          <!-- Absolute Positioning -->
+          <div class="absolute-container">
+            <div class="absolute-child">
+              <h4>Absolute Positioning</h4>
+              <p>
+                This element is positioned relative to its closest positioned
+                ancestor.
+              </p>
+            </div>
+            <div class="explanation">
+              <strong>When to use:</strong> For elements that need to be
+              precisely positioned relative to a parent container, like modals,
+              tooltips, or decorative elements.
+            </div>
+          </div>
+
+          <!-- Fixed Positioning -->
+          <div class="fixed-notification">
+            <h4>Fixed Positioning</h4>
+            <p>This notification stays fixed on screen while scrolling.</p>
+          </div>
+          <div class="explanation" style="margin-bottom: 20px">
+            <strong>When to use fixed positioning:</strong> For elements that
+            should remain visible while scrolling, such as navigation bars, chat
+            widgets, or important notifications.
+          </div>
+
+          <!-- Additional content to enable scrolling -->
+          <div
+            style="
+              height: 600px;
+              background-color: #f0f0f0;
+              padding: 20px;
+              margin-top: 20px;
+            "
+          >
+            <h4>Scroll Area</h4>
+            <p>
+              Additional content to demonstrate scroll behavior with fixed and
+              sticky elements.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>JS</h2>
+        <p>
+          JavaScript (JS) is a versatile programming language that allows you to
+          create dynamic and interactive web content. It can be used for a wide
+          range of tasks, from simple form validation to complex web
+          applications. JS enhances user experience by enabling real-time
+          updates, animations, and other interactive features.
+        </p>
+      </section>
+      <section>
+        <h2>10 Most useful tags in html</h2>
+        <ul>
+          <li>div</li>
+          <li>p</li>
+          <li>span</li>
+          <li>a</li>
+          <li>header</li>
+          <li>footer</li>
+          <li>nav</li>
+          <li>section</li>
+          <li>ul/ol</li>
+          <li>button</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>Created by Qian</footer>
+  </body>
+</html>
